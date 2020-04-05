@@ -11,7 +11,7 @@ Pharmacy::Pharmacy()
 
 Pharmacy::Pharmacy(vector<Medicine> med)
 {
-	for (int i=0; i < med.size();i++)
+	for (int i = 0; i < med.size(); i++)
 	{
 		medicine.push_back(med[i]);
 
@@ -36,4 +36,17 @@ Pharmacy::Pharmacy(vector<Medicine> med)
 void Pharmacy::add_medicine(Medicine med)
 {
 	medicine.push_back(med);
+}
+
+void Pharmacy::delete_medicine(string med)
+{
+
+	for (int i = 0; i < medicine.size(); i++)
+	{
+		if (medicine[i].getName() == med)
+		{
+			medicine.erase(medicine.begin() + i);
+			return;
+		}
+	}
 }

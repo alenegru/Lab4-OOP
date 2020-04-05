@@ -10,4 +10,6 @@ public:
 	Pharmacy();
 	Pharmacy(vector<Medicine> med);
 	void add_medicine(Medicine);
+	void delete_medicine(string);
+
 };
