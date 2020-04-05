@@ -9,5 +9,5 @@ private:
 public:
 	Pharmacy();
 	Pharmacy(vector<Medicine> med);
-
+	void add_medicine(Medicine);
 };

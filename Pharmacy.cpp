@@ -32,3 +32,8 @@ Pharmacy::Pharmacy(vector<Medicine> med)
 		}
 	}
 }
+
+void Pharmacy::add_medicine(Medicine med)
+{
+	medicine.push_back(med);
+}
