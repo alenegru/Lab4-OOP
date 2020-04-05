@@ -35,6 +35,7 @@ vector<Medicine> Pharmacy::getMedicines()
 {
 	return medicine;
 }
+
 void Pharmacy::add_medicine(Medicine med)
 {
 	int ok = 0;
