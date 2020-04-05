@@ -1,0 +1,15 @@
+﻿  Pharmacy.cpp
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(21,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(23,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(59,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(74,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(90,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(93,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(111,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(114,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Pharmacy.cpp(137,21): warning C4018: '<': signed/unsigned mismatch
+  Test.cpp
+  Generating Code...
+  Lab 4 OOP.vcxproj -> C:\Users\laura\Laburi OOP\Lab-4-OOP\Lab4-OOP\Debug\Lab 4 OOP.exe
