@@ -34,4 +34,10 @@ public:
 	{
 		return medicine.size();
 	}
+    
+    //searches for meds that have a quantity less than given quantity and displays them
+    void search_medication_by_quantity(int quant);
+
+    //sorts the meds by price
+    void group_meds_by_price();
 };

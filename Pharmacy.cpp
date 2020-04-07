@@ -154,4 +154,32 @@ void Pharmacy::display_medicine_by_certain_string(string find)
 	{
 		cout << "no such medcine"<<endl;
 	}
+    
+}
+
+void Pharmacy::search_medication_by_quantity(int quant) {
+    if (medicine.empty() == false) {
+        for (int i = 0; i != medicine.size(); i++) {
+            if (medicine[i].getQuantity() < quant) {
+                cout << "Name: " << medicine[i].getName() << "\nConcentration: " << medicine[i].getConcentration() << "\nPrice: " << medicine[i].getPrice()
+                    << "Quantity: " << medicine[i].getQuantity() << endl;
+            }
+        }
+    } else cout << "There are no medicines.";
+
+}
+
+void Pharmacy::group_meds_by_price() {
+    if (medicine.empty() == false) {
+        for (int i = 0; i != medicine.size() - 1; i++)
+            for (int j = i + 1; j != medicine.size(); j++)
+                if (medicine[i].getPrice() > medicine[j].getPrice()) {
+                    Medicine aux = medicine[i];
+                    medicine[i] = medicine[j];
+                    medicine[j] = aux;
+                }
+        for (int i = 0; i != medicine.size(); ++i) {
+            cout << "Name: " << medicine[i].getName() << "\nPrice: " << medicine[i].getPrice() << endl;
+        }
+    } else cout << "There are no medicines.";
 }

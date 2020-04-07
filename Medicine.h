@@ -14,10 +14,12 @@ private:
 public:
 	Medicine();
 	Medicine(string, int, int);
+    //getters
 	string getName();
 	int getConcentration();
 	int getQuantity();
 	int getPrice();
+    //setters
 	void setName(string);
 	void setConcentration(int);
 	void setQuantity(int);
