@@ -183,3 +183,12 @@ void Pharmacy::group_meds_by_price() {
         }
     } else cout << "There are no medicines.";
 }
+
+void Pharmacy::update_price(string name, int price) {
+    if (medicine.empty() == false) {
+        for (int i = 0; i != medicine.size(); i++) {
+            if (medicine[i].getName() == name)
+                medicine[i].setPrice(price);
+        }
+    } else cout << "There are no medicines.";
+}

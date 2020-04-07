@@ -40,4 +40,7 @@ public:
 
     //sorts the meds by price
     void group_meds_by_price();
+    
+    //updates price
+    void update_price(string name, int price);
 };
