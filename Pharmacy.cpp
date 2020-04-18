@@ -50,8 +50,9 @@ void Pharmacy::add_medicine(Medicine med)
 		}
 		
 	}
-	if(ok==0)
+    if(ok==0) {
 		medicine.push_back(med);
+    }
 }
 
 void Pharmacy::delete_medicine(string med)
@@ -159,8 +160,8 @@ void Pharmacy::display_medicine_by_certain_string(string find)
 
 void Pharmacy::search_medication_by_quantity(int quant) {
     if (medicine.empty() == false) {
-        for (int i = 0; i != medicine.size(); i++) {
-            if (medicine[i].getQuantity() < quant) {
+        for (int i = 0; i < medicine.size(); i++) {
+            if (medicine[i].getQuantity() <= quant) {
                 cout << "Name: " << medicine[i].getName() << "\nConcentration: " << medicine[i].getConcentration() << "\nPrice: " << medicine[i].getPrice()
                     << "Quantity: " << medicine[i].getQuantity() << endl;
             }
