@@ -109,7 +109,11 @@ void Pharmacy::sort_medicine_by_name()
 
 	Medicine aux; 
 	int j; 
-	int i = 0; 
+	int i = 0;
+    if (size() == 0) {
+        cout << "No medicines.\n";
+        return;
+    }
 	while (i < medicine.size() - 1)
 	{ 
 		j = i + 1; 
