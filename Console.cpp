@@ -21,7 +21,7 @@ Console::~Console() {
 void Console::main() {
     cout << "Menu\n\n";
 
-    int option = 69;
+    int option = -1;
 
     cout << "Choose option:\n1.Add medicine.\n2.Delete medicine.\n3.Update medicine.\n4.Sort meds by name.\n5.Search meds by quantity.\n6.Group by price\n7.Exit\nYour option: ";
     
